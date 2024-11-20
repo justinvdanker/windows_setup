@@ -1,10 +1,9 @@
 # windows_setup
-Installation scripts required to setup my Windows environment from scratch.
+Installation scripts required to install most programs for my Windows setup.
 
-Step one is to run the `setup.ps1` file in order to install Chocolatey.
-To do this please make sure to run the script in an elevated Powershell prompt.
-If you run into the issue that the script is not allowed to run because of a restriction on the Execution Policy please run the following command:
-`Set-ExecutionPolicy Unrestricted`
-
-After installing Chocolatey you can install all disred programs by simply running:
-`choco install .\packages.config` (in an elevated Powershell prompt)
+1. Open an elevated Powershell prompt
+2. Run `Set=ExectuionPolicy Unrestricted'
+3. run `setup.ps1'
+4. Download the `packages.config` file from this repository
+5. Run `choco install ./packages.config -y` in a terminal from the directory where you downloaded the file.
+   
